@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8016791C1C1DABCC0069CEDF /* showip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8016791B1C1DABCC0069CEDF /* showip.c */; };
 		8043367F1C1D9B05000BCA05 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8043367E1C1D9B05000BCA05 /* main.c */; };
+		80752FBD1C1EB77100C407A7 /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = 80752FBC1C1EB77100C407A7 /* server.c */; };
+		80752FBF1C1EB79100C407A7 /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 80752FBE1C1EB79100C407A7 /* client.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		8016791B1C1DABCC0069CEDF /* showip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = showip.c; sourceTree = "<group>"; };
 		8043367B1C1D9B05000BCA05 /* iproxy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iproxy; sourceTree = BUILT_PRODUCTS_DIR; };
 		8043367E1C1D9B05000BCA05 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		80752FBC1C1EB77100C407A7 /* server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
+		80752FBE1C1EB79100C407A7 /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				8043367E1C1D9B05000BCA05 /* main.c */,
 				8016791B1C1DABCC0069CEDF /* showip.c */,
+				80752FBC1C1EB77100C407A7 /* server.c */,
+				80752FBE1C1EB79100C407A7 /* client.c */,
 			);
 			path = iproxy;
 			sourceTree = "<group>";
@@ -121,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80752FBF1C1EB79100C407A7 /* client.c in Sources */,
 				8043367F1C1D9B05000BCA05 /* main.c in Sources */,
+				80752FBD1C1EB77100C407A7 /* server.c in Sources */,
 				8016791C1C1DABCC0069CEDF /* showip.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
